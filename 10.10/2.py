@@ -4,34 +4,27 @@ if a == 1:
 	print("Январь")
 elif a == 2:
 	print("Февраль")
-
-if a == 3:
+elif a == 3:
 	print("Март")
 elif a == 4:
 	print("Апрель")
-
-if a == 5:
+elif a == 5:
 	print("Май")
 elif a == 6:
 	print("Июнь")
-
-if a == 7:
+elif a == 7:
 	print("Июль")
 elif a == 8:
 	print("Август")
-
-if a == 9:
+elif a == 9:
 	print("Сентябрь")
 elif a == 10:
 	print("Октябрь")
-
-if a == 11:
+elif a == 11:
 	print("Ноябрь")
 elif a == 12:
 	print("Декабрь")
+else:
+	print("Такого месяца нет!!!!")
 
-if a > 12:
-	print("Такого месяца нет!!!!")
-elif a < 1:
-	print("Такого месяца нет!!!!")
 
